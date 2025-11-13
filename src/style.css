@@ -1,1 +1,13 @@
-salut la team
+:root {
+    --color-primary: #e50102;
+    --color-secondary: #fecf03;
+    --color-text: #040404;
+    --color-bg: #FFFFFF;
+  
+    --font-body: 'Open Sans', sans-serif;
+  --font-heading: 'Montserrat', sans-serif;
+
+  --spacing-small: 0.5rem;
+  --spacing-medium: 1rem;
+  --spacing-large: 2rem;
+}
