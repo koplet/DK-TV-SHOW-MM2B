@@ -1,0 +1,72 @@
+:root {
+    --color-primary: #ff9c1b;
+    --color-secondary: #05065a;
+    --color-text: #1b1b1b;
+    --color-accent: #f6f6f6;
+    --color-bg: #f6f6f6;
+  
+    --font-body: 'Open Sans', sans-serif;
+    --font-heading: 'Montserrat', sans-serif;
+
+    --spacing-small: 0.5rem;
+    --spacing-medium: 1rem;
+    --spacing-large: 2rem;
+}
+
+body{
+    background: url(../public/assets/images_histoire/kame_house_bg_dark.png);
+    
+    background-color: var(--color-bg);
+}
+
+header {
+    padding-block-start: 0px;
+    padding-block-end: 40px;
+}
+
+.site_header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 8px;
+  padding: 16px 0;
+}
+
+.site_logo{
+    margin-block-end: 2rem;
+}
+
+.nav_menu {
+  width: 100%;
+}
+
+.main_nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0;
+}
+
+
+.nav_link {
+  display: block;
+  text-align: center;
+  padding: 12px 0;
+  font-weight: 500;
+  font-size: 130%;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--color-accent);
+}
+
+.nav_item {
+  flex: 1;
+  margin: 0;
+  list-style: none;
+}
