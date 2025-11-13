@@ -59,7 +59,7 @@ header {
   text-align: center;
   padding: 12px 0;
   font-weight: 500;
-  font-size: 130%;
+  font-size: 150%;
   text-transform: uppercase;
   text-decoration: none;
   color: var(--color-accent);
@@ -69,4 +69,14 @@ header {
   flex: 1;
   margin: 0;
   list-style: none;
+  transition: font-size 0.3s ease-in-out;
+}
+
+.nav_item:hover{
+  font-size: 130%;
+}
+
+footer{
+  bottom: 0%;
+  position: fixed;
 }
