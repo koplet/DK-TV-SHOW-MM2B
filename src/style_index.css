@@ -5,12 +5,19 @@
     --color-accent: #f6f6f6;
     --color-bg: #f6f6f6;
   
-    --font-body: 'Open Sans', sans-serif;
-    --font-heading: 'Montserrat', sans-serif;
+    --font-family-main: "signika", system-ui, sans-serif;
+    --font-family-alt: "sigmar", system-ui, sans-serif;
+}
 
-    --spacing-small: 0.5rem;
-    --spacing-medium: 1rem;
-    --spacing-large: 2rem;
+@font-face {
+	font-family: sigmar;
+	src: url(../public/assets/fonts/Sigmar-Regular.ttf);
+}
+
+@font-face {
+	font-family: signika;
+	src: url(../public/assets/fonts/Signika-VariableFont_GRAD\,wght.ttf);
+  font-style: normal;
 }
 
 body{
@@ -63,6 +70,8 @@ header {
   text-transform: uppercase;
   text-decoration: none;
   color: var(--color-accent);
+  font-family: var(--font-family-alt);
+  letter-spacing: 0.2rem;
 }
 
 .nav_item {
