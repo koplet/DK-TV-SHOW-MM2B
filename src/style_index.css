@@ -89,3 +89,12 @@ footer{
   bottom: 0%;
   position: fixed;
 }
+
+.footer_p{
+  font-family: var(--font-family-main);
+}
+
+.footer_link{
+  text-decoration: none;
+  color: black;
+}
