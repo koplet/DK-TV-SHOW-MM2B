@@ -12,6 +12,7 @@
 @font-face {
 	font-family: futura_bold;
 	src: url(../public/assets/fonts/FuturaCyrillicBold.woff);
+  font-style: normal;
 }
 
 @font-face {
@@ -121,6 +122,35 @@ header {
 }
 
 
+
+@font-face {
+	font-family: bahnschrift_bold;
+	src: url(../public/assets/fonts/bahnschrift.ttf);
+  font-style: bold;
+}
+
+@font-face {
+	font-family: bahnschrift_normal;
+	src: url(../public/assets/fonts/bahnschrift.ttf);
+  font-style: normal;
+}
+
+.story_title {
+  font-family: "bahnschrift_bold";
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 3rem;
+  font-size: 40vh;
+}
+
+.story_text {
+  font-family: "bahnschrift_normal";
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+}
 
 
 

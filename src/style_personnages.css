@@ -1,0 +1,98 @@
+:root {
+    --color-primary: #ff9c1b;
+    --color-secondary: #05065a;
+    --color-text: #1b1b1b;
+    --color-accent: #f6f6f6;
+    --color-bg: #f6f6f6;
+  
+    --font-family-main: "futura_medium", system-ui, sans-serif;
+    --font-family-alt: "futura_bold", system-ui, sans-serif;
+}
+
+@font-face {
+	font-family: futura_bold;
+	src: url(../public/assets/fonts/FuturaCyrillicBold.woff);
+  font-style: normal;
+}
+
+@font-face {
+	font-family: futura_medium;
+	src: url(../public/assets/fonts/FuturaCyrillicMedium.woff);
+  font-style: normal;
+}
+header {
+    padding-block-start: 0px;
+    padding-block-end: 40px;
+}
+
+.site_header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 8px;
+  padding: 16px 0;
+}
+
+.site_logo{
+    margin-block-end: 2rem;
+}
+
+.nav_menu {
+  width: 100%;
+}
+
+.main_nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0;
+}
+
+
+.nav_link {
+  display: block;
+  text-align: center;
+  padding: 12px 0;
+  font-weight: 500;
+  font-size: 150%;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--color-accent);
+  font-family: var(--font-family-alt);
+  letter-spacing: 0.2rem;
+}
+
+.nav_item {
+  flex: 1;
+  margin: 0;
+  list-style: none;
+  transition: font-size 0.3s ease-in-out;
+}
+
+.nav_item:hover{
+  font-size: 130%;
+}
+
+
+
+
+
+footer{
+  bottom: 0%;
+  position: fixed;
+}
+
+.footer_p{
+  font-family: var(--font-family-main);
+}
+
+.footer_link{
+  text-decoration: none;
+  color: black;
+}
