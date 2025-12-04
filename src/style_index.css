@@ -5,30 +5,36 @@
     --color-accent: #f6f6f6;
     --color-bg: #f6f6f6;
   
-    --font-family-main: "signika", system-ui, sans-serif;
-    --font-family-alt: "sigmar", system-ui, sans-serif;
+    --font-family-main: "futura_medium", system-ui, sans-serif;
+    --font-family-alt: "futura_bold", system-ui, sans-serif;
 }
 
 @font-face {
-	font-family: sigmar;
-	src: url(../public/assets/fonts/Sigmar-Regular.ttf);
+	font-family: futura_bold;
+	src: url(../public/assets/fonts/FuturaCyrillicBold.woff);
 }
 
 @font-face {
-	font-family: signika;
-	src: url(../public/assets/fonts/Signika-VariableFont_GRAD\,wght.ttf);
+	font-family: futura_medium;
+	src: url(../public/assets/fonts/FuturaCyrillicMedium.woff);
   font-style: normal;
 }
 
 body{
     background: url(../public/assets/images_histoire/kame_house_bg_dark.png);
-    
+    background-repeat: no-repeat;
+    background-size: 100%;
     background-color: var(--color-bg);
 }
 
+
+
+
+
+
 header {
     padding-block-start: 0px;
-    padding-block-end: 40px;
+    padding-block-end: 100vh;
 }
 
 .site_header {
@@ -84,6 +90,39 @@ header {
 .nav_item:hover{
   font-size: 130%;
 }
+
+
+
+
+
+
+.scroll_btn {
+  border-radius: 100%;
+  border: none;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  bottom: 10%;
+  animation: wiggle 1.5s ease-in-out infinite;
+}
+
+.scroll_btn img {
+  padding-top: 20%;
+}
+
+@keyframes wiggle {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+
+
+
+
 
 footer{
   bottom: 0%;
