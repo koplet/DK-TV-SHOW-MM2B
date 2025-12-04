@@ -5,19 +5,19 @@
     --color-accent: #f6f6f6;
     --color-bg: #f6f6f6;
   
-    --font-family-main: "futura_medium", system-ui, sans-serif;
-    --font-family-alt: "futura_bold", system-ui, sans-serif;
+    --font-family-main: "bahnschrift_normal", system-ui, sans-serif;
+    --font-family-alt: "bahnschrift_bold", system-ui, sans-serif;
 }
 
 @font-face {
-	font-family: futura_bold;
-	src: url(../public/assets/fonts/FuturaCyrillicBold.woff);
-  font-style: normal;
+	font-family: bahnschrift_bold;
+	src: url(../public/assets/fonts/bahnschrift.ttf);
+  font-style: bold;
 }
 
 @font-face {
-	font-family: futura_medium;
-	src: url(../public/assets/fonts/FuturaCyrillicMedium.woff);
+	font-family: bahnschrift_normal;
+	src: url(../public/assets/fonts/bahnschrift.ttf);
   font-style: normal;
 }
 header {
